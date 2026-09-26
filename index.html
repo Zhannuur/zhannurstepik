@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Менің кәсіби веб-парақшам</title>
+</head>
+<body>
+
+<header>
+  <h1>Менің кәсіби веб-парақшам</h1>
+  <p>Ақпараттық технологиялар саласындағы студенттің жеке веб-парақшасы.</p>
+  <nav>
+    <ul>
+      <li><a href="#home">Басты бет</a></li>
+      <li><a href="#about">Мен туралы</a></li>
+      <li><a href="#skills">Менің дағдыларым</a></li>
+      <li><a href="#projects">Жобаларым</a></li>
+      <li><a href="#achievements">Жетістіктерім</a></li>
+      <li><a href="#resources">Пайдалы ресурстар</a></li>
+      <li><a href="#contact">Байланыс</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<section id="about">
+  <h2>Мен туралы</h2>
+  <p>Мен Жарасова Жаннұр, ҚазҰлтҚызПУ студентімін. Мамандығым – ақпараттық жүйелер.</p>
+  <p>Қызығушылығым – кітап оқу,бағдарламалау, 3D модельдеу. Кәсіби мақсатым – IT саласында білікті маман болу.</p>
+  <figure>
+    <img src="images/photo.jpeg" alt="Менің суретім">
+    <figcaption>Менің университеттегі суретім</figcaption>
+  </figure>
+</section>
+
+<section id="skills">
+  <h2>Менің дағдыларым</h2>
+  <ul>
+    <li>Бағдарламалау тілдері:
+      <ol>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C#</li>
+      </ol>
+    </li>
+    <li>Web-технологиялар:
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+    </li>
+    <li>Желілік технологиялар</li>
+    <li>3D модельдеу</li>
+    <li>SQL деректер қоры</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Менің жобаларым</h2>
+  <table border="1">
+    <caption>Жобалар тізімі</caption>
+    <thead>
+      <tr>
+        <th>№</th>
+        <th>Жоба атауы</th>
+        <th>Қолданылған технологиялар</th>
+        <th>Жылы</th>
+        <th>Жоба жағдайы</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Smart Classroom</td>
+        <td>3ds MAX 2026</td>
+        <td>2026</td>
+        <td rowspan="2">Аяқталды</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Networking Lab</td>
+        <td>Cisco packet Tracer</td>
+        <td>2026</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>3D Visualization</td>
+        <td>3ds Max</td>
+        <td>2026</td>
+        <td>Жоспарланған</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="achievements">
+  <h2>Менің жетістіктерім</h2>
+  <ul>
+    <li>Курстарга қатысу <time datetime="2025-03-10">10 наурыз 2025</time></li>
+    <li>Сертификат алынган</li>
+    <li>Coursera,Stepik</li>
+    <li>Жоба жасау</li>
+    <li>Ғылыми мақала жазу</li>
+  </ul>
+</section>
+
+<section id="resources">
+  <h2>Пайдалы ресурстар</h2>
+  <ul>
+    <li><a href="https://github.com" target="_blank">GitHub</a></li>
+    <li><a href="https://developer.mozilla.org" target="_blank">HTML құжаттамасы</a></li>
+    <li><a href="https://leetcode.com" target="_blank">Бағдарламалау платформасы</a></li>
+    <li><a href="https://coursera.org" target="_blank">Білім беру платформасы</a></li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Байланыс</h2>
+  <form>
+    <label>Аты-жөніңіз: <input type="text" name="name"></label><br>
+    <label>Email: <input type="email" name="email"></label><br>
+    <label>Телефон: <input type="tel" name="phone"></label><br>
+    <label>Тақырып:
+      <select name="subject">
+        <option>Жоба</option>
+        <option>Сұрақ</option>
+        <option>Кері байланыс</option>
+      </select>
+    </label><br>
+    <label><input type="radio" name="gender" value="male"> Ер</label>
+    <label><input type="radio" name="gender" value="female"> Әйел</label><br>
+    <label><input type="checkbox" name="subscribe"> Жаңалықтарға жазылу</label><br>
+    <label>Хабарлама: <textarea name="message"></textarea></label><br>
+    <input type="submit" value="Жіберу">
+    <input type="reset" value="Тазалау">
+  </form>
+</section>
+
+<section id="media">
+  <h2>Мультимедиа</h2>
+  <video controls>
+    <source src="media/video.mp4" type="video/mp4">
+  </video>
+</section>
+
+<details>
+  <summary>Мен туралы қызықты факт</summary>
+  <p>Мен бос уақытымда жаңа технологияларды зерттегенді ұнатамын.</p>
+</details>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Жаннұр. Барлық құқықтар қорғалған.</p>
+</footer>
+
+</body>
+</html>
